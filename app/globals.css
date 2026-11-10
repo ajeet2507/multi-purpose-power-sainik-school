@@ -1,8 +1,11 @@
+
 @import "tailwindcss";
 
 :root {
   --school-navy: #102b50;
-  --school-gold: #d5a63c;
+  --school-red: #c62828;
+  --school-red-dark: #a61b1b;
+  --school-red-light: #fef2f2;
   --school-light: #f5f7fa;
 }
 
@@ -19,4 +22,9 @@ body {
   background: #ffffff;
   color: #1e293b;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--school-red);
+  color: #ffffff;
 }
